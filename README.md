@@ -30,8 +30,12 @@ https://www.canva.com/design/DAGqY6XrGOY/liKGLt8Er5pwoQsx4PmQjg/view
 
 ### Smart Contract
 
+| Name     | Type  | Contract Address |  
+| -------- | ----- | ---------------- |
+| DonToken | ERC20 | [0xC8897AEb22C494f8Aa427Bf5ba41737Bc29449BC](https://testnet.monadexplorer.com/address/0xC8897AEb22C494f8Aa427Bf5ba41737Bc29449BC) |
+
 Feature
-1. ERC20 => mata uang untuk di platform ini
+1. ERC20 ($DON) => mata uang untuk di platform ini
     - untuk donasi
     - untuk withdraw/cashout
     - untuk laporan keuangan
