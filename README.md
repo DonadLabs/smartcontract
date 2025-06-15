@@ -30,9 +30,11 @@ https://www.canva.com/design/DAGqY6XrGOY/liKGLt8Er5pwoQsx4PmQjg/view
 
 ### Smart Contract
 
-| Name     | Type  | Contract Address |  
-| -------- | ----- | ---------------- |
-| DonToken | ERC20 | [0xC8897AEb22C494f8Aa427Bf5ba41737Bc29449BC](https://testnet.monadexplorer.com/address/0xC8897AEb22C494f8Aa427Bf5ba41737Bc29449BC) |
+| Name        | Type   | Contract Address |  
+| ----------- | ------ | ---------------- |
+| DonToken    | ERC20  | [0xC8897AEb22C494f8Aa427Bf5ba41737Bc29449BC](https://testnet.monadexplorer.com/address/0xC8897AEb22C494f8Aa427Bf5ba41737Bc29449BC) |
+| DonDonorNFT | ERC721 | [0x66D0FDd17A2acFd9168a3E2cA6e30D99DEd58eC3](https://testnet.monadexplorer.com/address/0x66D0FDd17A2acFd9168a3E2cA6e30D99DEd58eC3)
+| DonFundraiserNFT | ERC721 | [0x516873A1F9f49C26F155370807FfD3519C35aDb4](https://testnet.monadexplorer.com/address/0x516873A1F9f49C26F155370807FfD3519C35aDb4)
 
 Feature
 1. ERC20 ($DON) => mata uang untuk di platform ini
