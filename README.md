@@ -33,8 +33,9 @@ https://www.canva.com/design/DAGqY6XrGOY/liKGLt8Er5pwoQsx4PmQjg/view
 | Name        | Type   | Contract Address |  
 | ----------- | ------ | ---------------- |
 | DonToken    | ERC20  | [0xC8897AEb22C494f8Aa427Bf5ba41737Bc29449BC](https://testnet.monadexplorer.com/address/0xC8897AEb22C494f8Aa427Bf5ba41737Bc29449BC) |
-| DonDonorNFT | ERC721 | [0x66D0FDd17A2acFd9168a3E2cA6e30D99DEd58eC3](https://testnet.monadexplorer.com/address/0x66D0FDd17A2acFd9168a3E2cA6e30D99DEd58eC3)
-| DonFundraiserNFT | ERC721 | [0x516873A1F9f49C26F155370807FfD3519C35aDb4](https://testnet.monadexplorer.com/address/0x516873A1F9f49C26F155370807FfD3519C35aDb4)
+| DonDonorNFT | ERC721 | [0x66D0FDd17A2acFd9168a3E2cA6e30D99DEd58eC3](https://testnet.monadexplorer.com/address/0x66D0FDd17A2acFd9168a3E2cA6e30D99DEd58eC3) |
+| DonFundraiserNFT | ERC721 | [0x4398Db210e119C44c4fCE07b6Ba7a0c26414CFc9](https://testnet.monadexplorer.com/address/0x4398Db210e119C44c4fCE07b6Ba7a0c26414CFc9) |
+| DonadManager | - | [0x94117F7708125f9b63cb3C4Bc820763763fe152b](https://testnet.monadexplorer.com/address/0x94117F7708125f9b63cb3C4Bc820763763fe152b) |
 
 Feature
 1. ERC20 ($DON) => mata uang untuk di platform ini
@@ -54,6 +55,28 @@ Feature
     - Any Fundraiser NFT holder can create fundraiser
     - Fundraiser's fundraised amount will be accumulated inside their Fundraiser NFT
     - There should be a way to filter the ERC20 transfer from a certain fundraising program
+
+#### Flow
+
+1. Faucet
+
+![FaucetFlow](./docs/flow.faucet.excalidraw.png)
+
+2. Register
+
+![RegisterFlow](./docs/flow.register.excalidraw.png)
+
+3. Create Fundraise
+
+![CreateFundraiseFlow](./docs/flow.createFundraise.excalidraw.png)
+
+4. Donate
+
+![DonateFlow](./docs/flow.donate.excalidraw.png)
+
+5. Withdraw
+
+![WithdrawFlow](./docs/flow.withdraw.excalidraw.png)
 
 ## Foundry
 
