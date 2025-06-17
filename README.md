@@ -60,23 +60,23 @@ Feature
 
 1. Faucet
 
-![FaucetFlow](./docs/flow.faucet.excalidraw.png)
+![FaucetFlow](./docs/flow.faucet.svg)
 
 2. Register
 
-![RegisterFlow](./docs/flow.register.excalidraw.png)
+![RegisterFlow](./docs/flow.register.svg)
 
 3. Create Fundraise
 
-![CreateFundraiseFlow](./docs/flow.createFundraise.excalidraw.png)
+![CreateFundraiseFlow](./docs/flow.createFundraise.svg)
 
 4. Donate
 
-![DonateFlow](./docs/flow.donate.excalidraw.png)
+![DonateFlow](./docs/flow.donate.svg)
 
 5. Withdraw
 
-![WithdrawFlow](./docs/flow.withdraw.excalidraw.png)
+![WithdrawFlow](./docs/flow.withdraw.svg)
 
 ## Foundry
 
