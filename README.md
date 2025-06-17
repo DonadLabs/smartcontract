@@ -35,7 +35,7 @@ https://www.canva.com/design/DAGqY6XrGOY/liKGLt8Er5pwoQsx4PmQjg/view
 | DonToken    | ERC20  | [0xC8897AEb22C494f8Aa427Bf5ba41737Bc29449BC](https://testnet.monadexplorer.com/address/0xC8897AEb22C494f8Aa427Bf5ba41737Bc29449BC) |
 | DonDonorNFT | ERC721 | [0x66D0FDd17A2acFd9168a3E2cA6e30D99DEd58eC3](https://testnet.monadexplorer.com/address/0x66D0FDd17A2acFd9168a3E2cA6e30D99DEd58eC3) |
 | DonFundraiserNFT | ERC721 | [0x4398Db210e119C44c4fCE07b6Ba7a0c26414CFc9](https://testnet.monadexplorer.com/address/0x4398Db210e119C44c4fCE07b6Ba7a0c26414CFc9) |
-| DonadManager | - | [0x94117F7708125f9b63cb3C4Bc820763763fe152b](https://testnet.monadexplorer.com/address/0x94117F7708125f9b63cb3C4Bc820763763fe152b) |
+| DonadManager | - | [0x5890deC57407a0E37b15c2C351115fa3827dF277](https://testnet.monadexplorer.com/address/0x5890deC57407a0E37b15c2C351115fa3827dF277) |
 
 Feature
 1. ERC20 ($DON) => mata uang untuk di platform ini

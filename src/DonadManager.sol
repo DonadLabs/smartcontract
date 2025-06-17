@@ -81,8 +81,9 @@ contract DonadManager {
     error FundraiseIdNonExistent();
     error FundraiseIsNotClosed();
     error WithdrawalAmountExceedsAccumulated();
-    error WtihdrawalRemarkIsEmpty();
+    error WithdrawalRemarkIsEmpty();
     error WithdrawalAddressIsZero();
+    error WithdrawalByInvalidFundraiserAddress();
     error DonationAmountIsZero();
     error UserTokenAllowanceIsLessThanAmountDonated();
     error TokenTransferFailed();
@@ -215,7 +216,7 @@ contract DonadManager {
         address withdrawalAddress
     ) public onlyFundraiser(msg.sender) fundraiseExists(fundraiseId) {
         if (bytes(remarks).length == 0) {
-            revert WtihdrawalRemarkIsEmpty();
+            revert WithdrawalRemarkIsEmpty();
         }
 
         if (fundraises[fundraiseId].targetDate > block.timestamp) {
@@ -224,6 +225,10 @@ contract DonadManager {
 
         if (withdrawalAddress == address(0)) {
             revert WithdrawalAddressIsZero();
+        }
+
+        if (fundraises[fundraiseId].fundraiser != msg.sender) {
+            revert WithdrawalByInvalidFundraiserAddress();
         }
 
         uint256 accumulatedAmount = fundraises[fundraiseId].accumulatedAmount;
