@@ -74,6 +74,17 @@ contract DonFundraiserNFTTest is Test {
         assertEq(fundraiserNFT.getFundraiserMilestone(alice), fundraiserMilestone);
     }
 
+    function test_RegisterBypassingDonorNFT() public {
+        uint256 aliceInitialBalance = fundraiserNFT.balanceOf(alice);
+
+        vm.startPrank(deployer);
+        fundraiserNFT.registerBypassingDonorNFTForPrivateAccess(alice);
+        vm.stopPrank();
+
+        assertEq(aliceInitialBalance, 0);
+        assertEq(fundraiserNFT.balanceOf(alice), 1);
+    }
+
     function test_Fail_RegisterExistingUser() public {
         test_RegisterNewUser();
 

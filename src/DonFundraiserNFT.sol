@@ -46,6 +46,16 @@ contract DonFundraiserNFT is ERC721, Ownable {
         _safeMint(msg.sender, tokenId);
     }
 
+    function registerBypassingDonorNFTForPrivateAccess(address fundraiser) public onlyOwner {
+        if (balanceOf(fundraiser) > 0) {
+            revert FundraiserAlreadyRegistered();
+        }
+
+        uint256 tokenId = ++_nextTokenId;
+
+        _safeMint(fundraiser, tokenId);
+    }
+
     /**
      * @dev Override non-transferable
      */
